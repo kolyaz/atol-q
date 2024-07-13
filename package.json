@@ -5,8 +5,8 @@
   "productName": "atol-q",
   "author": "kolyaz <energo_ceh@mail.ru>",
   "private": true,
-  "main": "data/bindings.js",
-  "types": "data/bindings.d.ts",
+  "main": "bindings.js",
+  "types": "bindings.d.ts",
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,css,html,md,json}\" --ignore-path .gitignore",
@@ -15,7 +15,7 @@
     "build": "quasar build",
     "build-atol": "node-gyp build",
     "install-atol": "node-gyp rebuild",
-    "start-atol": "node ./data/index.js"
+    "start-atol": "node ./index.js"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",

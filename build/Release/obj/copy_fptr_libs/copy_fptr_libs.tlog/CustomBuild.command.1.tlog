@@ -1,0 +1,9 @@
+^F:\WORK\MGS\ATOL\ATOL-Q\SRC\WIN-X64\FPTR10.DLL
+call mkdir "F:\work\MGS\atol\atol-q\build\Release\" 2>nul & set ERRORLEVEL=0 & copy /Y "F:\work\MGS\atol\atol-q\src\win-x64\fptr10.dll" "F:\work\MGS\atol\atol-q\build\Release\fptr10.dll"
+if %errorlevel% neq 0 exit /b %errorlevel%
+^F:\WORK\MGS\ATOL\ATOL-Q\SRC\WIN-X64\MSVCP140.DLL
+call mkdir "F:\work\MGS\atol\atol-q\build\Release\" 2>nul & set ERRORLEVEL=0 & copy /Y "F:\work\MGS\atol\atol-q\src\win-x64\msvcp140.dll" "F:\work\MGS\atol\atol-q\build\Release\msvcp140.dll"
+if %errorlevel% neq 0 exit /b %errorlevel%
+^F:\WORK\MGS\ATOL\ATOL-Q\SRC\WIN-X64\FPTR10.LIB
+call mkdir "F:\work\MGS\atol\atol-q\build\Release\" 2>nul & set ERRORLEVEL=0 & copy /Y "F:\work\MGS\atol\atol-q\src\win-x64\fptr10.lib" "F:\work\MGS\atol\atol-q\build\Release\fptr10.lib"
+if %errorlevel% neq 0 exit /b %errorlevel%
